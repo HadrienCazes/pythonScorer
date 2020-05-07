@@ -1,4 +1,4 @@
-import constants
+from tokenizer import constants
 
 def checkChar(word:str):
 	for charName in constants.specialChars:

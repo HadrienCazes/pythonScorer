@@ -1,8 +1,8 @@
 import os
 import sys
 import re
-import helper
-import constants
+from tokenizer import helper
+from tokenizer import constants
 
 if len(sys.argv) < 2:
 	print('you must supply an input file')
@@ -36,5 +36,3 @@ def tokenizer():
 	for token in token_list:
 		print(token)
 	return token_list
-
-tokenizer()
