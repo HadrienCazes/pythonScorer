@@ -19,7 +19,7 @@ def tokenizer():
 	new_source = helper.replaceSpecialsChars(source)
 	token_list = []
 	new_source2 = re.split("[\t\f\v ]+", new_source)
-	print(new_source2)
+	#print(new_source2)
 	for word in new_source2:
 		if not word.isdigit():
 		#if len(word)<=0 or word==None:

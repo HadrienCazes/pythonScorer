@@ -1,6 +1,6 @@
-import "../tokenizer/constants" as constTokens
-import "./constants") as constParser
-import "./helper" as helper
+from tokenizer import constants as constTokens
+from parser import constants as constParser
+from parser import helper as helper
 
 def create(tokenType,tokens,start):
     if tokenType == constParser.expressionMethodCall:

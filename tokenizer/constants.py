@@ -14,5 +14,6 @@ specialChars = {
     "divide":  {"regRule": "/", "value":"/"},
     "modulo":  {"regRule": "%", "value":"%"},
     "printFunction":  {"regRule": "print", "value":"print"},
+    "defFunction" : {"regRule": "def", "value":"def"},
     "#":  {"regRule": "#", "value":"#"}
 }

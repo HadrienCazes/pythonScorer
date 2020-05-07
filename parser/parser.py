@@ -1,6 +1,6 @@
-import "../tokenizer/constants" as constTokens
-import "./constants" as constParser
-import "./expressionsFactory" as factory
+from tokenizer import constants as constTokens
+from parser import constants as constParser
+from parser import expressionsFactory as factory
 
 def parser(tokens):
     AST=[]
