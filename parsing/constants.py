@@ -3,6 +3,7 @@ typeString= 'string'
 
 expressionAffectation= "variableAffectation"
 expressionMethodCall= "objectMethodCall"
+expressionPrint= "printMethodCall"
 
 errorMissingOpenParenthesis = "Error: missing a open parenthesis"
 errorMissingCloseParenthesis= "Error: missing a close parenthesis"

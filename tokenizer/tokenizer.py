@@ -9,6 +9,7 @@ if len(sys.argv) < 2:
 	quit()
 
 def readFile():
+	print("******************SOURCE***************************************")
 	with open(sys.argv[1]) as file:
 		source = file.read()
 	print(source)
@@ -16,6 +17,7 @@ def readFile():
 
 def tokenizer():
 	source = readFile()
+	print("******************TOKENIZER***************************************")
 	new_source = helper.replaceSpecialsChars(source)
 	token_list = []
 	new_source2 = re.split("[\t\f\v ]+", new_source)

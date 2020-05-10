@@ -17,3 +17,10 @@ specialChars = {
     "defFunction" : {"regRule": "def", "value":"def"},
     "#":  {"regRule": "#", "value":"#"}
 }
+
+symboleEqual            = "equal"
+symbolePoint            = "point"
+symboleVirgule          = "virgule"
+symboleQuotationMark    = "quotationMark"
+symboleOpenParenthese   = "openParenthese"
+symboleCloseParenthese  = "closeParenthese"
